@@ -1,0 +1,81 @@
+.body{
+  width: 100%;
+  max-height: 100%;
+  background-color: #050597;
+  height: 100%;
+  padding: 10%;
+}
+
+.flexbox {
+  background-color: #050597;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fusk-image{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+img {
+  background-position: center;
+}
+
+h1 {
+  font-family: 'Coiny', cursive;
+  color: #fff;
+  text-align: center;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+h1 a:hover {
+  color: #c1001f;
+  text-decoration: underline;
+}
+
+button {
+  height: 50px;
+  width: 250px;
+  background-color: #c1001f;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+button a{
+  font-family: 'Coiny', cursive;
+  color: white;
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: white;
+}
+
+button a:hover{
+  color: #c1001f;
+  text-decoration: none;
+}
+
+@media (max-width: 599px){
+  h1 {
+    font-size: 1.7em;
+  }
+
+}
